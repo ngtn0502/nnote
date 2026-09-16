@@ -109,13 +109,27 @@ function App() {
         </div>
         <div className="brand-mark brand-mark-lg">n</div>
         <h1>nnote</h1>
-        <p>Active recall flashcards backed by JSON files on disk.</p>
-        <button type="button" className="btn-primary" onClick={openFolder}>
-          Open deck folder
-        </button>
-        <button type="button" className="btn-ghost" onClick={loadSamples}>
-          Try sample decks
-        </button>
+        <p>Spaced-repetition flashcards that live in your files, not someone's cloud.</p>
+        <div className="welcome-actions">
+          <button type="button" className="option-card" onClick={openFolder}>
+            <span className="option-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+              </svg>
+            </span>
+            <span className="option-title">Open deck folder</span>
+            <span className="option-desc">Load and save decks from a folder on your disk</span>
+          </button>
+          <button type="button" className="option-card" onClick={loadSamples}>
+            <span className="option-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8" />
+              </svg>
+            </span>
+            <span className="option-title">Try sample decks</span>
+            <span className="option-desc">Jump in instantly, no setup required</span>
+          </button>
+        </div>
         {error && <p className="error">{error}</p>}
       </div>
     )
