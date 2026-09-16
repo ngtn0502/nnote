@@ -1,0 +1,792 @@
+{
+  "version": 1,
+  "deckName": "PTE Academic - Nhan's Review Deck",
+  "topic": "PTE Academic",
+  "cards": [
+    {
+      "id": "pte-1",
+      "type": "basic",
+      "front": "What's wrong with \"Although the price is high, but the quality is good\"?",
+      "back": "Double conjunction — English only needs ONE conjunction to show contrast. Correct: \"Although the price is high, the quality is good.\" (This is your #1 most repeated grammar error.)",
+      "tags": [
+        "grammar",
+        "conjunctions",
+        "top-mistake"
+      ],
+      "srs": {
+        "interval": 4,
+        "ease": 2.65,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-09-20T04:22:20.218Z"
+      }
+    },
+    {
+      "id": "pte-2",
+      "type": "basic",
+      "front": "Fix: \"The satisfaction level does not fluctuate\" vs the wrong version \"the satisfaction level not fluctuate\" — why is the second one wrong?",
+      "back": "English negation of a regular verb needs an auxiliary: S + do/does/did + not + V. \"Not\" can never sit directly before a normal verb (unlike Vietnamese \"không\").",
+      "tags": [
+        "grammar",
+        "negation",
+        "top-mistake"
+      ],
+      "srs": {
+        "interval": 4,
+        "ease": 2.65,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-09-20T04:22:39.513Z"
+      }
+    },
+    {
+      "id": "pte-3",
+      "type": "basic",
+      "front": "\"The amount of percentage for both groups ___ (is/are) stable.\" Which is correct and why?",
+      "back": "\"is\" — the verb agrees with the HEAD NOUN (\"amount\", singular), not the noun inside the following prepositional phrase (\"percentage\"). This is a recurring trap in chart descriptions.",
+      "tags": [
+        "grammar",
+        "subject-verb-agreement",
+        "top-mistake"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-4",
+      "type": "basic",
+      "front": "Why must you write \"the US\" / \"the UK\" instead of just \"US\" / \"UK\" in formal writing?",
+      "back": "Country abbreviations/acronyms take a definite article: \"the US\", \"the UK\". Dropping \"the\" before these is one of your recurring article errors.",
+      "tags": [
+        "grammar",
+        "articles",
+        "top-mistake"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-5",
+      "type": "basic",
+      "front": "Fix: \"Overall, the chart shows that China dominants the retail market.\"",
+      "back": "\"dominants\" isn't a real word. Correct: \"China dominates the retail market.\" Rule: 3rd-person singular subject + V(+s). \"Dominant\" is the adjective/noun form, \"dominates\" is the verb.",
+      "tags": [
+        "grammar",
+        "word-form",
+        "subject-verb-agreement"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-6",
+      "type": "basic",
+      "front": "Fix: \"The very poor group... which steady decline from 5% to 2%.\"",
+      "back": "\"steady\" is an adjective but here it's modifying a verb (\"decline\") — you need the adverb \"steadily\". Rule: adjectives modify nouns, adverbs modify verbs. Correct: \"...which steadily declines from 5% to 2%.\"",
+      "tags": [
+        "grammar",
+        "adjective-vs-adverb",
+        "top-mistake"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-7",
+      "type": "basic",
+      "front": "Fix: \"The scientist whom I interviewed him studies climate change.\"",
+      "back": "Remove \"him\" — it's a redundant pronoun. \"Whom\" already functions as the object of \"interviewed\", so you can't repeat the object with \"him\". Correct: \"The scientist whom I interviewed studies climate change.\"",
+      "tags": [
+        "grammar",
+        "relative-clauses"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-8",
+      "type": "basic",
+      "front": "What is a \"comma splice\" and why is it a grammar error?",
+      "back": "Joining two independent (full) clauses with only a comma, e.g. \"Prices rose, sales fell.\" Fix by using a period, semicolon, or a conjunction (and/but/so): \"Prices rose, so sales fell.\" This is a repeated error across your responses.",
+      "tags": [
+        "grammar",
+        "sentence-structure",
+        "top-mistake"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-9",
+      "type": "basic",
+      "front": "Fix the spelling: \"the cycle repeats it self every year.\"",
+      "back": "Reflexive pronouns (myself, yourself, itself, themselves) are always ONE word — never split. Correct: \"the cycle repeats itself every year.\"",
+      "tags": [
+        "grammar",
+        "spelling",
+        "pronouns"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-10",
+      "type": "basic",
+      "front": "Fix: \"Finally the flower turns into a fruit to complete the a full cycle.\"",
+      "back": "Two errors: (1) missing comma after transition word \"Finally,\"; (2) \"the a full cycle\" has two articles stacked — only one article per noun phrase. Correct: \"Finally, the flower turns into a fruit to complete a full cycle.\"",
+      "tags": [
+        "grammar",
+        "articles",
+        "punctuation"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-11",
+      "type": "basic",
+      "front": "When describing a chart/graph in PTE, should you use present or past tense, and why?",
+      "back": "Present simple — \"the chart shows...\", not \"showed\". The data represents a general/ongoing fact (like a snapshot of reality), similar to \"Water boils at 100°C\". Use past tense only for specific historical events (e.g., \"In 2020, sales dropped by 10%\").",
+      "tags": [
+        "grammar",
+        "tense",
+        "strategy"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-12",
+      "type": "basic",
+      "front": "Fix: \"The meeting room locates in the corner of the building.\"",
+      "back": "\"Locate\" is transitive and normally needs the passive form for stative location. Correct: \"The meeting room is located in the corner.\" Same rule applies to \"situate\" (→ \"is situated\").",
+      "tags": [
+        "grammar",
+        "passive-voice",
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-13",
+      "type": "basic",
+      "front": "Should \"receive\" be put in passive voice in English, the way Vietnamese \"được nhận\" implies passivity?",
+      "back": "No. \"Receive\" is already active-voice with the receiver as subject: \"I received a gift.\" Only use passive if the THING RECEIVED becomes the subject: \"A gift was received by me\" (rare/unnatural). Don't translate \"được\" into an unnecessary passive.",
+      "tags": [
+        "grammar",
+        "passive-voice"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-14",
+      "type": "basic",
+      "front": "Fix: \"Leisure activities take three times as much hours as eating and drinking.\"",
+      "back": "\"Hours\" is countable, so use \"many\" not \"much\": \"as many hours as\". (Also double-check your math against the actual chart data before choosing a multiplier like \"three times\".)",
+      "tags": [
+        "grammar",
+        "countable-uncountable"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-15",
+      "type": "basic",
+      "front": "In formal PTE writing, should you write numbers like \"5\" as digits or words?",
+      "back": "Numbers under 10 should be spelled out in formal writing: \"five stages\", not \"5 stages\". (Percentages and large statistics can stay as digits, e.g. \"54.6%\".)",
+      "tags": [
+        "grammar",
+        "numbers",
+        "formal-writing"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-16",
+      "type": "basic",
+      "front": "Can \"followed by\" be followed directly by a full clause (S + V)?",
+      "back": "No — \"followed by\" + NOUN PHRASE only, e.g. \"planting, followed by watering.\" To connect two full clauses in sequence, use \"and this was followed by\", \"then\", or \"after\" instead. Important for Process Diagram descriptions.",
+      "tags": [
+        "grammar",
+        "process-diagram",
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-17",
+      "type": "basic",
+      "front": "How should you format currency in writing: \"3.99$\" or \"$3.99\"?",
+      "back": "\"$3.99\" — the currency symbol goes BEFORE the number in English.",
+      "tags": [
+        "grammar",
+        "formatting"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-18",
+      "type": "basic",
+      "front": "Is \"peoples\" ever correct as a plural?",
+      "back": "\"People\" is already the plural of \"person\" (don't add -s for a group of individuals). \"Peoples\" is only correct when referring to multiple distinct ethnic/national groups, e.g. \"the peoples of Southeast Asia.\"",
+      "tags": [
+        "grammar",
+        "countable-uncountable"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-19",
+      "type": "basic",
+      "front": "Should you use contractions like \"it's\", \"don't\" in PTE Writing responses?",
+      "back": "No — avoid contractions in formal/academic PTE Writing and Speaking. Always write full forms: \"it is\", \"do not\". Contractions signal an informal register, which examiners penalize.",
+      "tags": [
+        "vocabulary",
+        "formal-register"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-20",
+      "type": "basic",
+      "front": "Fix: \"That two reasons account for most decisions.\"",
+      "back": "Demonstrative must match plural noun: \"Those two reasons account for most decisions.\" (that → singular, those → plural)",
+      "tags": [
+        "grammar",
+        "agreement"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-21",
+      "type": "basic",
+      "front": "Fix: \"The very poor group taking fairly smaller proportion...\"",
+      "back": "\"taking\" isn't a finite verb — a clause needs one. Also \"fairly smaller\" is a bad collocation; use \"much/far smaller\" with comparatives. Correct: \"The very poor group takes up a much smaller proportion...\"",
+      "tags": [
+        "grammar",
+        "finite-verb",
+        "collocation"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-22",
+      "type": "basic",
+      "front": "Which preposition is correct: \"females engage ___ work\" — \"on\" or \"in\"?",
+      "back": "\"in\" — \"engage IN\" is a fixed collocation. Learn fixed preposition pairs as whole chunks rather than translating word-by-word from Vietnamese.",
+      "tags": [
+        "vocabulary",
+        "collocation",
+        "prepositions"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-23",
+      "type": "basic",
+      "front": "What structural element is most often missing at the start of a Describe Image / line-graph response?",
+      "back": "An OVERVIEW SENTENCE stating what the chart shows, what's being compared, and the time frame. Its absence costs content/structure points even if the rest of the description is accurate.",
+      "tags": [
+        "strategy",
+        "structure",
+        "top-mistake"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-24",
+      "type": "basic",
+      "front": "Practical PTE rule: when is \"whom\" actually required instead of \"who\"?",
+      "back": "Only when it comes immediately after a preposition, e.g. \"the professor TO WHOM I spoke\". In most other cases \"who\" is acceptable and sounds more natural — if unsure, use \"who\".",
+      "tags": [
+        "grammar",
+        "relative-pronouns"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-25",
+      "type": "basic",
+      "front": "Can \"whose\" be used for things, not just people?",
+      "back": "Yes. \"Whose\" shows possession for both people and things: \"the report whose findings shocked everyone\" (= \"its findings\"). Many learners wrongly think it's people-only.",
+      "tags": [
+        "grammar",
+        "relative-pronouns"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-26",
+      "type": "basic",
+      "front": "Backshift rule: \"The report indicates that sales ___ (rise/rose) last quarter.\" Which form, and why?",
+      "back": "\"rose\" (or \"had risen\" if it happened before another past event) — when a reporting clause uses \"that\", tense shifts back one level (present → past). This pattern is core for SWT reporting verbs (indicates, shows, reports + that-clause).",
+      "tags": [
+        "grammar",
+        "tense",
+        "swt"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-27",
+      "type": "basic",
+      "front": "What does \"cited\" mean, as in \"reasons cited by customers\"?",
+      "back": "Mentioned or referred to as a reason/source (e.g., in a survey). Don't confuse with homophones \"site\" (a location) or \"sight\" (vision/a view).",
+      "tags": [
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-28",
+      "type": "basic",
+      "front": "Why does \"considerable variation\" take NO article, while \"a variation of the recipe\" DOES?",
+      "back": "\"Variation\" is uncountable when it refers to a general degree of difference (considerable variation = a lot of difference). It's countable when it means one specific variant/version of something (a variation of the recipe = one version).",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "countable-uncountable"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-29",
+      "type": "basic",
+      "front": "What's the correct idiom for the lowest point on a chart, contrasted with the highest? (\"on the other side of the scale\" is WRONG)",
+      "back": "\"at the other end of the scale\" — e.g., \"By contrast, Canada sits at the other end of the scale, having produced only 80 films.\"",
+      "tags": [
+        "vocabulary",
+        "idiom"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-30",
+      "type": "basic",
+      "front": "What does a perfect participle clause like \"...having produced only 80 films\" add, compared to a simple -ing clause?",
+      "back": "It shows a COMPLETED action that happened before/leads to the main clause's situation — a more precise causal/temporal relationship (\"having + V3\"). Using this structure signals grammatical range, which PTE rewards.",
+      "tags": [
+        "grammar",
+        "participle-clause",
+        "advanced"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-31",
+      "type": "basic",
+      "front": "What's a more natural/academic phrase than \"takes up\" when describing a data share? E.g. \"Price takes up 54.6%.\"",
+      "back": "\"accounts for\" — \"Price accounts for 54.6% of the decision.\" \"Takes up\" is too casual for formal chart description.",
+      "tags": [
+        "vocabulary",
+        "collocation"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-32",
+      "type": "basic",
+      "front": "Fix: \"China ranks at first in retail sales.\"",
+      "back": "\"ranks first\" — no preposition needed before an ordinal like \"first/last\" after \"rank\".",
+      "tags": [
+        "vocabulary",
+        "collocation"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-33",
+      "type": "basic",
+      "front": "How can you avoid repeating \"total retail sales\" three times in one response?",
+      "back": "Vary your vocabulary with synonyms: \"share\", \"online retail spending\", \"the percentage\". Repetition is penalized; range of vocabulary is rewarded.",
+      "tags": [
+        "vocabulary",
+        "strategy"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-34",
+      "type": "basic",
+      "front": "Name 4-5 strong \"trend\" verbs to use instead of flatly listing numbers in a chart description.",
+      "back": "rise, climb, increase, grow, edge up (upward); fall, decline, drop, plunge (downward). These sound more natural and analytical than just stating percentages.",
+      "tags": [
+        "vocabulary",
+        "trend-language"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-35",
+      "type": "basic",
+      "front": "What are the format/length constraints for Summarize Written Text (SWT)?",
+      "back": "ONE single sentence, 5–75 words, that captures the main idea + key supporting point. It's a compression skill, not a creativity skill.",
+      "tags": [
+        "strategy",
+        "swt"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-36",
+      "type": "basic",
+      "front": "What is the best single sentence pattern/template for SWT?",
+      "back": "\"Although/While + [supporting detail], + [main idea] + because/as + [reason].\" This compresses a whole paragraph into one grammatically complex sentence — the single most useful SWT structure.",
+      "tags": [
+        "strategy",
+        "swt",
+        "grammar"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-37",
+      "type": "basic",
+      "front": "What's the recommended length and structure for the PTE Essay task?",
+      "back": "200-300 words: a clear position, 2-3 supporting paragraphs, and a conclusion.",
+      "tags": [
+        "strategy",
+        "essay"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-38",
+      "type": "basic",
+      "front": "What is the recommended 4-part structure for Describe Image (process/cycle diagrams)?",
+      "back": "1) Overview, 2) Stage-by-stage detail, 3) Cycle/Result (or trend insight for graphs), 4) Conclusion. Close with a sentence restating the cycle/topic keywords, which helps the AI scorer recognize completeness.",
+      "tags": [
+        "strategy",
+        "describe-image"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-39",
+      "type": "basic",
+      "front": "What is the recommended 4-part structure for Describe Image (floor plan / spatial diagrams)?",
+      "back": "1) Overview, 2) Entrance/Starting point, 3) Spatial movement (using location prepositions & movement verbs), 4) Conclusion.",
+      "tags": [
+        "strategy",
+        "describe-image"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-40",
+      "type": "basic",
+      "front": "For a 60+ PTE target, what matters more: grammar accuracy or vocabulary complexity?",
+      "back": "Grammar accuracy. One clean, error-free sentence scores better than one ambitious sentence with a mistake. Don't reach for words/structures you're not sure how to use correctly.",
+      "tags": [
+        "strategy"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-41",
+      "type": "basic",
+      "front": "What's the recommended time budget for SWT and Essay?",
+      "back": "SWT: ~10 minutes. Essay: ~20 minutes. Many learners lose points not from grammar but from running out of time to write a proper conclusion.",
+      "tags": [
+        "strategy",
+        "timing"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-42",
+      "type": "basic",
+      "front": "What's the recommended process for reviewing feedback after each practice submission?",
+      "back": "1) Fix only the top 1-2 flagged issues first, not everything at once. 2) Physically retype the corrected sentences yourself. 3) Keep a running list of repeated mistakes. 4) Do a before/after comparison every 5-10 responses.",
+      "tags": [
+        "strategy",
+        "practice-habits"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-43",
+      "type": "basic",
+      "front": "Besides Summarize Written Text and Write Essay, which other task types secretly also feed into your PTE Writing score?",
+      "back": "Summarize Spoken Text and Write from Dictation — both are listed under \"Listening\" but are integrated tasks that also contribute to your Writing score. Don't neglect them when trying to raise Writing.",
+      "tags": [
+        "strategy",
+        "scoring"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-44",
+      "type": "basic",
+      "front": "Quick self-check habit for articles: what question should you ask before every singular countable noun?",
+      "back": "\"Is this a singular countable noun?\" → If yes, it needs an article (a/an/the). This habit fixes your recurring pattern of dropping articles (e.g., \"wide range\" → \"a wide range\").",
+      "tags": [
+        "grammar",
+        "articles",
+        "practice-habits"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-45",
+      "type": "basic",
+      "front": "Quick self-check habit for subject-verb agreement: what should you check before submitting any sentence?",
+      "back": "Does the subject end in \"-s\" (plural) or not (singular)? Then make sure the verb form matches — this is your single most repeated error type across chart descriptions.",
+      "tags": [
+        "grammar",
+        "subject-verb-agreement",
+        "practice-habits"
+      ],
+      "srs": {
+        "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    }
+  ]
+}

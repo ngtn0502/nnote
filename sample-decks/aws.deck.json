@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "deckName": "AWS - Compute",
+  "topic": "AWS",
+  "cards": [
+    {
+      "id": "aws-1",
+      "type": "basic",
+      "front": "What is **EC2**?",
+      "back": "Elastic Compute Cloud — resizable virtual servers (instances) you rent by the second/hour.",
+      "tags": ["ec2", "compute"],
+      "srs": { "due": "2026-09-16T00:00:00.000Z", "interval": 0, "ease": 2.5, "reps": 0, "lapses": 0 }
+    },
+    {
+      "id": "aws-2",
+      "type": "basic",
+      "front": "What is the difference between **Lambda** and **EC2**?",
+      "back": "Lambda runs code on-demand without managing servers (serverless, billed per invocation/duration). EC2 gives you a persistent virtual server you manage yourself.",
+      "tags": ["lambda", "ec2", "serverless"],
+      "srs": { "due": "2026-09-16T00:00:00.000Z", "interval": 0, "ease": 2.5, "reps": 0, "lapses": 0 }
+    },
+    {
+      "id": "aws-3",
+      "type": "basic",
+      "front": "What does **S3** stand for and what is it for?",
+      "back": "Simple Storage Service — object storage for files/blobs, organized into buckets, accessed over HTTPS.",
+      "tags": ["s3", "storage"],
+      "srs": { "due": "2026-09-16T00:00:00.000Z", "interval": 0, "ease": 2.5, "reps": 0, "lapses": 0 }
+    }
+  ]
+}
