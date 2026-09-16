@@ -4,7 +4,7 @@ import { DeckList } from "./components/DeckList"
 import { Sidebar } from "./components/Sidebar"
 import { StudySession } from "./components/StudySession"
 import { ThemeIcon } from "./components/ThemeIcon"
-import { loadDecks, pickDirectory, saveDeck, verifyPermission, type DeckFile } from "./lib/fsAccess"
+import { loadDecks, loadSampleDecks, pickDirectory, saveDeck, verifyPermission, type DeckFile } from "./lib/fsAccess"
 import { clearDirectoryHandle, loadDirectoryHandle, saveDirectoryHandle } from "./lib/idbHandle"
 import { rate } from "./lib/srs"
 import { getTheme, setTheme } from "./lib/theme"
@@ -59,6 +59,12 @@ function App() {
     }
   }
 
+  function loadSamples() {
+    setDeckFiles(loadSampleDecks())
+    setSelectedDeckIndex(null)
+    setMode("list")
+  }
+
   async function persistDeckAt(index: number, updater: (deck: DeckFile["deck"]) => DeckFile["deck"]) {
     const target = deckFiles[index]
     const updatedDeck = updater(target.deck)
@@ -84,7 +90,7 @@ function App() {
     setEditingCard(undefined)
   }
 
-  if (!dirHandle) {
+  if (!dirHandle && deckFiles.length === 0) {
     return (
       <div className="welcome">
         <div className="header-controls theme-toggle-floating">
@@ -106,6 +112,9 @@ function App() {
         <p>Active recall flashcards backed by JSON files on disk.</p>
         <button type="button" className="btn-primary" onClick={openFolder}>
           Open deck folder
+        </button>
+        <button type="button" className="btn-ghost" onClick={loadSamples}>
+          Try sample decks
         </button>
         {error && <p className="error">{error}</p>}
       </div>
