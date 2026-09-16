@@ -12,6 +12,7 @@ interface Props {
   onCycleTextSize: () => void
   onSelectDeck: (index: number) => void
   onOpenFolder: () => void
+  open: boolean
 }
 
 export function Sidebar({
@@ -23,6 +24,7 @@ export function Sidebar({
   onCycleTextSize,
   onSelectDeck,
   onOpenFolder,
+  open,
 }: Props) {
   const topics = new Map<string, number[]>()
   deckFiles.forEach((df, i) => {
@@ -32,7 +34,7 @@ export function Sidebar({
   })
 
   return (
-    <aside className="sidebar">
+    <aside className={`sidebar ${open ? "sidebar-open" : ""}`}>
       <div className="sidebar-header">
         <div className="brand">
           <div className="brand-mark">n</div>

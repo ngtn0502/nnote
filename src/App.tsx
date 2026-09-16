@@ -22,6 +22,7 @@ function App() {
   const [mode, setMode] = useState<Mode>("list")
   const [editingCard, setEditingCard] = useState<Card | undefined>()
   const [error, setError] = useState<string | null>(null)
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
   useEffect(() => {
     loadDirectoryHandle().then(async (handle) => {
@@ -139,6 +140,17 @@ function App() {
 
   return (
     <div className="app-shell">
+      <button
+        type="button"
+        className="theme-toggle mobile-menu-btn"
+        onClick={() => setSidebarOpen(true)}
+        aria-label="Open deck menu"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+          <path d="M3 6h18M3 12h18M3 18h18" />
+        </svg>
+      </button>
+      {sidebarOpen && <div className="sidebar-backdrop" onClick={() => setSidebarOpen(false)} />}
       <Sidebar
         deckFiles={deckFiles}
         selectedDeckIndex={selectedDeckIndex}
@@ -146,15 +158,18 @@ function App() {
         onToggleTheme={toggleTheme}
         textSize={textSize}
         onCycleTextSize={cycleTextSize}
+        open={sidebarOpen}
         onSelectDeck={(i) => {
           setSelectedDeckIndex(i)
           setMode("list")
+          setSidebarOpen(false)
         }}
         onOpenFolder={() => {
           clearDirectoryHandle()
           setDirHandle(null)
           setDeckFiles([])
           setSelectedDeckIndex(null)
+          setSidebarOpen(false)
         }}
       />
       <main className="main-content">
