@@ -25,6 +25,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          VITE_SHEET_WEBAPP_URL: ${{ secrets.VITE_SHEET_WEBAPP_URL }}
+          VITE_SHEET_SECRET: ${{ secrets.VITE_SHEET_SECRET }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
