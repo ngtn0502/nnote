@@ -50,11 +50,11 @@
         "top-mistake"
       ],
       "srs": {
-        "due": "2026-09-16T00:00:00.000Z",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0,
-        "lapses": 0
+        "interval": 4,
+        "ease": 2.65,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-09-20T06:34:54.137Z"
       }
     },
     {
@@ -68,11 +68,11 @@
         "top-mistake"
       ],
       "srs": {
-        "due": "2026-09-16T00:00:00.000Z",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0,
-        "lapses": 0
+        "interval": 4,
+        "ease": 2.65,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-09-20T06:35:04.195Z"
       }
     },
     {
@@ -782,6 +782,442 @@
       ],
       "srs": {
         "due": "2026-09-16T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-46",
+      "type": "basic",
+      "front": "Cách mở bài cho dạng *partial agree* (\"to what extent\")?",
+      "back": "\"While it is true that X, Y cannot capture Z.\"",
+      "tags": [
+        "structure",
+        "intro"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-47",
+      "type": "basic",
+      "front": "Nâng cấp: \"efficient method\" → ?",
+      "back": "\"an effective means of assessment\"",
+      "tags": [
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-48",
+      "type": "basic",
+      "front": "Nâng cấp: \"it provide a way\" → ?",
+      "back": "\"reveal how well a student can...\"",
+      "tags": [
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-49",
+      "type": "basic",
+      "front": "Nâng cấp: \"enable evaluator to understand student's way of thinking\" → ?",
+      "back": "\"allowing evaluators to gauge their reasoning skills\"",
+      "tags": [
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-50",
+      "type": "basic",
+      "front": "Nâng cấp: \"used in almost of every universities\" → ?",
+      "back": "\"a practice adopted by nearly every university in the country\"",
+      "tags": [
+        "structure"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-51",
+      "type": "basic",
+      "front": "Cụm nối ý hay hơn \"On the other hand\" là gì?",
+      "back": "\"this picture is far from complete\"",
+      "tags": [
+        "cohesive-device"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-52",
+      "type": "basic",
+      "front": "Nâng cấp: \"we require to proficient at\" → ?",
+      "back": "\"employees are expected to be proficient in\" (S + be + expected/required + to be + adj)",
+      "tags": [
+        "structure",
+        "passive"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-53",
+      "type": "basic",
+      "front": "Nâng cấp: \"difficult to cover\" → ?",
+      "back": "\"fails to capture\"",
+      "tags": [
+        "vocabulary",
+        "collocation"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-54",
+      "type": "basic",
+      "front": "Nâng cấp: \"have became popular\" → ?",
+      "back": "\"have become increasingly common\" (have/has + V3, become = V1 = V3)",
+      "tags": [
+        "grammar",
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-55",
+      "type": "basic",
+      "front": "Nâng cấp: \"understand other aspects of interviewee\" → ?",
+      "back": "\"reveal a candidate's holistic competence\"",
+      "tags": [
+        "vocabulary"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-56",
+      "type": "basic",
+      "front": "Cách kết bài academic hơn \"there are some other better methods\"?",
+      "back": "\"should be complemented by other methods\"",
+      "tags": [
+        "structure",
+        "conclusion"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-57",
+      "type": "basic",
+      "front": "Cụm hay để kết đoạn/kết bài thay vì lặp từ \"skills\" đơn giản?",
+      "back": "\"the full range of skills modern life demands\"",
+      "tags": [
+        "vocabulary",
+        "conclusion"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-58",
+      "type": "basic",
+      "front": "Nâng cấp: \"Opinions divided on whether...\" → viết đúng ngữ pháp và tự nhiên hơn?",
+      "back": "\"Opinions are divided over whether...\" (nhớ: chủ ngữ số nhiều luôn cần \"are\")",
+      "tags": [
+        "grammar",
+        "essay-opening"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-59",
+      "type": "basic",
+      "front": "Thay cụm yếu \"I partially agree on this\" bằng cụm mạnh, tự nhiên hơn?",
+      "back": "\"I largely support this practice.\" (agree WITH, không phải agree ON, khi nói về ý kiến/người)",
+      "tags": [
+        "vocabulary",
+        "opinion"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-60",
+      "type": "basic",
+      "front": "Cụm nào dùng đúng từ khóa đề bài thay vì \"deduct student's scores when they submit their test late\"?",
+      "back": "\"deduct marks from assignments submitted after the deadline\" (bám sát từ khóa đề: assignment, deadline)",
+      "tags": [
+        "collocation",
+        "task-response"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-61",
+      "type": "basic",
+      "front": "Sửa lỗi so sánh mơ hồ: \"...comparing to the other one\"?",
+      "back": "\"...compared with their peers\" (dùng \"peers/others\", tránh \"the other one\" khi so sánh nhóm người)",
+      "tags": [
+        "grammar",
+        "comparison"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-62",
+      "type": "basic",
+      "front": "Nâng cấp cụm động từ dài dòng: \"prevent them to have more advantage\"?",
+      "back": "\"gives them an unfair advantage\" (cụm danh từ gọn, tự nhiên hơn cấu trúc động từ)",
+      "tags": [
+        "vocabulary",
+        "phrasing"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-63",
+      "type": "basic",
+      "front": "Từ/cụm học thuật thay cho \"prevent them\" khi nói về việc ngăn hành vi xấu?",
+      "back": "\"discourages this behavior\" — ghi nhớ cấu trúc \"discourage/prevent/stop sb FROM doing\"",
+      "tags": [
+        "preposition",
+        "collocation"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-64",
+      "type": "basic",
+      "front": "Cụm academic writing hay thay cho \"increase their responsibility which is clearly benefit\"?",
+      "back": "\"instills a sense of discipline that will benefit students\" — \"instill a sense of X\" là cụm rất hay dùng trong essay",
+      "tags": [
+        "vocabulary",
+        "high-value-phrase"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-65",
+      "type": "basic",
+      "front": "Từ nối học thuật thay cho \"But\" ở đầu câu khi chuyển ý sang thân bài 2?",
+      "back": "\"On the other hand,\" / \"However,\" / \"Nevertheless,\" (tránh dùng \"But\" mở đầu câu trong văn academic)",
+      "tags": [
+        "linking-words",
+        "structure"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-66",
+      "type": "basic",
+      "front": "Cụm trang trọng hơn thay cho \"Take, for example,\" khi đưa ví dụ?",
+      "back": "\"For instance,\" (ngắn gọn, trang trọng, phù hợp văn academic hơn)",
+      "tags": [
+        "linking-words",
+        "example"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-67",
+      "type": "basic",
+      "front": "Cụm hay để diễn tả \"cách tiếp cận có mức độ/phân bậc\" (ví dụ: phạt theo %/ngày thay vì phạt cố định)?",
+      "back": "\"a more graduated approach\" — graduated = tăng/giảm dần theo mức độ",
+      "tags": [
+        "vocabulary",
+        "high-value-phrase"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-68",
+      "type": "basic",
+      "front": "Cụm kết luận mạnh, khái quát thay cho \"lowering scores from students's work is a valid way\"?",
+      "back": "\"...is a valid tool for promoting discipline and fairness\" — cụm \"is a valid tool for X\" dùng tốt trong câu kết luận",
+      "tags": [
+        "vocabulary",
+        "conclusion"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-69",
+      "type": "basic",
+      "front": "Cụm hay để nối 2 giải pháp/ý trong câu kết luận, thay cho \"some other aspects need to be considered\"?",
+      "back": "\"universities should pair it with flexible, case-by-case measures\" — \"pair X with Y\" là cụm nối ý rất tự nhiên",
+      "tags": [
+        "vocabulary",
+        "conclusion"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-70",
+      "type": "basic",
+      "front": "Sở hữu cách số nhiều: \"students's work\" hay \"students' work\"?",
+      "back": "\"students' work\" — nhiều người sở hữu → chỉ thêm dấu ' sau s (KHÔNG thêm 's nữa)",
+      "tags": [
+        "grammar",
+        "possessive"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "lapses": 0
+      }
+    },
+    {
+      "id": "pte-71",
+      "type": "basic",
+      "front": "Phân biệt \"beside\" và \"besides\" — câu nào đúng: \"allow online submission beside the traditional test\"?",
+      "back": "\"...besides the traditional test\" — besides = ngoài ra/thêm vào; beside = ở bên cạnh (vị trí)",
+      "tags": [
+        "vocabulary",
+        "confusing-words"
+      ],
+      "srs": {
+        "due": "2026-09-17T00:00:00.000Z",
         "interval": 0,
         "ease": 2.5,
         "reps": 0,
