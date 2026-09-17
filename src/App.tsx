@@ -6,6 +6,7 @@ import { StudySession } from "./components/StudySession"
 import { ThemeIcon } from "./components/ThemeIcon"
 import { loadDecks, loadSampleDecks, pickDirectory, saveDeck, verifyPermission, type DeckFile } from "./lib/fsAccess"
 import { clearDirectoryHandle, loadDirectoryHandle, saveDirectoryHandle } from "./lib/idbHandle"
+import { fetchSheetDeck, sheetSyncConfigured, upsertCardInSheet } from "./lib/sheetSync"
 import { rate } from "./lib/srs"
 import { getTheme, setTheme } from "./lib/theme"
 import { getTextSize, nextTextSize, setTextSize, textSizeLabel } from "./lib/textSize"
@@ -60,33 +61,58 @@ function App() {
     }
   }
 
-  function loadSamples() {
-    setDeckFiles(loadSampleDecks())
+  async function loadSamples() {
+    setError(null)
+    const files = loadSampleDecks()
+    if (sheetSyncConfigured) {
+      try {
+        files.push({ fileHandle: null, source: "sheet", deck: await fetchSheetDeck() })
+      } catch {
+        setError("Failed to load the English deck from Google Sheets.")
+      }
+    }
+    setDeckFiles(files)
     setSelectedDeckIndex(null)
     setMode("list")
   }
 
-  async function persistDeckAt(index: number, updater: (deck: DeckFile["deck"]) => DeckFile["deck"]) {
+  async function persistDeckAt(
+    index: number,
+    updater: (deck: DeckFile["deck"]) => DeckFile["deck"],
+    changedCard: Card,
+  ) {
     const target = deckFiles[index]
     const updatedDeck = updater(target.deck)
-    await saveDeck(target.fileHandle, updatedDeck)
+    if (target.source === "sheet") {
+      await upsertCardInSheet(changedCard)
+    } else {
+      await saveDeck(target.fileHandle, updatedDeck)
+    }
     setDeckFiles((prev) => prev.map((df, i) => (i === index ? { ...df, deck: updatedDeck } : df)))
   }
 
   function handleRate(cardId: string, rating: Rating) {
     if (selectedDeckIndex === null) return
-    persistDeckAt(selectedDeckIndex, (deck) => ({
-      ...deck,
-      cards: deck.cards.map((c) => (c.id === cardId ? { ...c, srs: rate(c.srs, rating) } : c)),
-    }))
+    const existing = deckFiles[selectedDeckIndex].deck.cards.find((c) => c.id === cardId)
+    if (!existing) return
+    const updatedCard = { ...existing, srs: rate(existing.srs, rating) }
+    persistDeckAt(
+      selectedDeckIndex,
+      (deck) => ({ ...deck, cards: deck.cards.map((c) => (c.id === cardId ? updatedCard : c)) }),
+      updatedCard,
+    )
   }
 
   function handleSaveCard(card: Card) {
     if (selectedDeckIndex === null) return
-    persistDeckAt(selectedDeckIndex, (deck) => {
-      const exists = deck.cards.some((c) => c.id === card.id)
-      return { ...deck, cards: exists ? deck.cards.map((c) => (c.id === card.id ? card : c)) : [...deck.cards, card] }
-    })
+    persistDeckAt(
+      selectedDeckIndex,
+      (deck) => {
+        const exists = deck.cards.some((c) => c.id === card.id)
+        return { ...deck, cards: exists ? deck.cards.map((c) => (c.id === card.id ? card : c)) : [...deck.cards, card] }
+      },
+      card,
+    )
     setMode("list")
     setEditingCard(undefined)
   }
